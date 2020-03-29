@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Build PC</string>
+    <string name="build">Xây dựng cấu hình</string>
+    <string name="setting">Cài đặt</string>
+    <string name="more_menu">More</string>
+    <string name="about">About</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="slogan1">Application Build PC</string>
+    <string name="slogan2">Version 1.0.1</string>
+    <string name="slgan3">Ngày nay nhu cầu sử dụng máy tính ngày càng tăng cao, với sự phát triển mạnh về công nghệ nhiều sản phẩm, linh kiện máy tính được ra đời
+    App Build PC tạo ra giúp người dùng có thể dễ dàng cập nhật các sản phẩm, linh kiện máy tính mới nhất hiện nay. Có thể tự xây dụng 1 cấu hình máy tình
+        cho riêng mình với các mức giá khác nhau phù hợp với nhu cầu sử dụng.</string>
+    <string name="slogan4">Các thành viên trong nhóm gồm:</string>
+    <string name="slogan5">Điện thoại hỗ trợ: 0987654xxx</string>
+    <string name="slogan6">Thư điện tử: cskh@gmail.com</string>
+    <string name="build_pc">Build Personal Computer</string>
+</resources>

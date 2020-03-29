@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.buildpc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_2"
+        android:label="Build PC"
+        android:roundIcon="@mipmap/ic_launcher_2"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        <activity android:name=".Login.Registration"></activity>
+        <activity android:name=".Main.ActivityAbout" />
+        <activity android:name=".ActivityListItem.RecommendPCActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListCPUActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListRAMActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListMainActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListPSUActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListVGAActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListSSDActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListCASEActivity" />
+        <activity android:name=".ActivityListItem.BuildPCListHDDActivity" />
+        <activity android:name=".Main.MainBuild" />
+        <activity android:name=".Login.Login_App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main.MainActivity" />
+    </application>
+
+
+
+</manifest>

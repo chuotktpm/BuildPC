@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityListItem.RecommendPCActivity"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_pc"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_name_pc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name PC"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView_type_pc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:maxLines="3"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textView_description_pc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descrition PC"
+                android:maxLines="2"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/textView_price_pc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:textSize="25sp"  />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="800dp"
+    android:orientation="vertical"
+    android:background="@drawable/custom_dialog_info">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_info"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                tools:srcCompat="@tools:sample/avatars"
+                android:padding="20dp"/>
+
+            <ImageButton
+                android:id="@+id/icon_close_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_close_black_24dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView_name_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_1_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Info 1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_2_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Info 2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_brand_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brand"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_description_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_price_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textColor="#FF0000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+</LinearLayout>
