@@ -27,7 +27,7 @@ import com.example.buildpc.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
+    //Khai báo lớp thư viện
 public class Login_App extends AppCompatActivity {
 
     EditText edt_username, edt_password;
