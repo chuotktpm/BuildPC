@@ -1,4 +1,4 @@
-package com.example.buildpc.Main;
+package com.example.buildpc.Main; //Cho nay vua them vao
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
