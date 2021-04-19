@@ -21,7 +21,7 @@ import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-
+    //Can them gi do de nhin
 public class CASE_Adapter extends ArrayAdapter<Model_CASE> {
 
     private Context context;
